@@ -1,0 +1,66 @@
+model = "gpt-5-codex"
+
+
+[profiles.default]
+model_reasoning_effort = "high"
+
+[profiles.fast]
+model_reasoning_effort = "minimal"
+
+
+# Für z.B das Suchen von Doku
+[tools]
+web_search = true
+
+# Netzwerk Zugriff im Modus „Workspace-Schreiben“ zulassen
+[sandbox_workspace_write]
+network_access = true
+
+# Wenn dein Konto für die Verwendung von Zero Data Retention (ZDR) eingerichtet ist.
+disable_response_storage = true   
+
+# Terminal notifications 
+[tui]
+notifications = true
+types = ["agent-turn-complete", "approval-requested"]
+
+# Legt fest, wie viel Rechenaufwand das Modell für Schlussfolgerungen (Reasoning) betreiben soll.
+
+# Höchste Genauigkeit, kann langsamer sein.
+# model_reasoning_effort = "high"
+
+# Ausgewogen zwischen Geschwindigkeit und Genauigkeit.
+# model_reasoning_effort = "medium"
+
+# Schnellere Antworten, geringerer Denkaufwand.
+# model_reasoning_effort = "low"
+
+# Minimale Analyse, maximale Geschwindigkeit.
+# model_reasoning_effort = "minimal"
+
+
+# Approval Policy
+
+# Fragt nach, wenn der Befehl nicht in der Liste vertrauenswürdiger Befehle ist. 
+# approval_policy = "untrusted"
+
+# Fragt nur, wenn der Befehl in der Sandbox fehlschlägt und außerhalb erneut ausgeführt werden soll.
+# approval_policy = "on-failure"
+
+# Modell entscheidet selbst, wann eine Bestätigung erforderlich ist.
+# approval_policy = "on-request"
+
+# Fragt nie, führt alle Befehle automatisch aus, auch bei Fehlern.
+# approval_policy = "never"
+
+
+
+# Custom hook wenn dein Terminal die Notifications nicht unterstützt
+# -------------------------
+# notify (array of strings)
+# Docs: https://github.com/openai/codex/blob/main/docs/config.md#notify
+# -------------------------
+# notify = ["python3", "/path/to/script.py"] # replace with the actual path to your script
+
+# notify = ["python3", "/Users/benjaminthorstensen/HomeBase/Projects/scripts/codex_notify.py"]
+
