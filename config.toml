@@ -5,7 +5,7 @@ model = "gpt-5-codex"
 model_reasoning_effort = "high"
 
 [profiles.fast]
-model_reasoning_effort = "minimal"
+model_reasoning_effort = "low"
 
 
 # Für z.B das Suchen von Doku
@@ -24,6 +24,7 @@ disable_response_storage = true
 notifications = true
 types = ["agent-turn-complete", "approval-requested"]
 
+
 # Legt fest, wie viel Rechenaufwand das Modell für Schlussfolgerungen (Reasoning) betreiben soll.
 
 # Höchste Genauigkeit, kann langsamer sein.
@@ -35,7 +36,7 @@ types = ["agent-turn-complete", "approval-requested"]
 # Schnellere Antworten, geringerer Denkaufwand.
 # model_reasoning_effort = "low"
 
-# Minimale Analyse, maximale Geschwindigkeit.
+# Minimale Analyse, maximale Geschwindigkeit. Kann dafür kein web search!
 # model_reasoning_effort = "minimal"
 
 
@@ -63,4 +64,3 @@ types = ["agent-turn-complete", "approval-requested"]
 # notify = ["python3", "/path/to/script.py"] # replace with the actual path to your script
 
 # notify = ["python3", "/Users/benjaminthorstensen/HomeBase/Projects/scripts/codex_notify.py"]
-
