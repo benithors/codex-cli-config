@@ -1,5 +1,5 @@
 <bug>
-$1
+$ARGUMENTS
 </bug>
 
 You are now in BUG ANALYSIS MODE.
