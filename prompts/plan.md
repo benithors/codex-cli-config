@@ -1,5 +1,5 @@
 <task>
-$1
+$ARGUMENTS
 </task>
 
 You are now in PLANNING MODE.
