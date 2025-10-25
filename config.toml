@@ -4,6 +4,7 @@ model = "gpt-5-codex"
 [profiles.default]
 model_reasoning_effort = "high"
 
+
 [profiles.fast]
 model_reasoning_effort = "low"
 
@@ -24,6 +25,10 @@ disable_response_storage = true
 notifications = true
 types = ["agent-turn-complete", "approval-requested"]
 
+[mcp_servers.chrome-devtools]
+command = "npx"
+args = ["chrome-devtools-mcp@latest"]
+enabled = false
 
 # Legt fest, wie viel Rechenaufwand das Modell für Schlussfolgerungen (Reasoning) betreiben soll.
 
