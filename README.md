@@ -6,10 +6,10 @@
 
 - `alias.md`: ein paar Shell-Aliasse, damit sich verschiedene Codex-Profile mit einem Kurzbefehl starten lassen.
 
-- `prompts/*.md` – die Custom-Prompts, die ich am häufigsten benutze (Brainstorming, Bug, Commit, Plan). Kannst du direkt in der CLI laden.
+- `prompts/*.md`: die Custom-Prompts, die ich am häufigsten benutze.
 
 ## Nutzung
-- Kopiere den config.toml und prompts/*.md nach `~/.codex` (oder dorthin, wo deine CLI nach Configs sucht).
+- Kopiere den config.toml und prompts/*.md nach `~/.codex` (oder dorthin, wo deine CLI nach Configs liegt).
 
 - Führe die alias.md Befehle aus, und speichere sie für deine Shell. Falls du dir da unsicher bist wie das geht einfach die AI deiner Wahl fragen ;)
 
