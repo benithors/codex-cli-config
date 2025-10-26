@@ -1,5 +1,3 @@
-# Codex CLI Setup aus dem Video
-
 
 ## Was hier drin steckt
 - `config.toml`: meine persönliche Einstellungssammlung für die Codex CLI. 
