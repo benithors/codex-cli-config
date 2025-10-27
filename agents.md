@@ -2,6 +2,7 @@
 
 * You **MUST** only modify or revert files you authored for the current task, unless you have explicit written approval **in this conversation**.
 * When uncertain about other agents’ in-flight work, you **MUST STOP** and coordinate before acting.
+* You MUST run long-running, interactive, or stateful commands inside a tmux.
 
 ## 2 Hard Prohibitions (NO EXCEPTIONS)
 
