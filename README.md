@@ -9,7 +9,9 @@
 - `prompts/*.md`: die Custom-Prompts, die ich am häufigsten benutze.
 
 ## Nutzung
-- Kopiere den config.toml und prompts/*.md nach `~/.codex` (oder dorthin, wo deine CLI nach Configs liegt).
+* Nicht einfach kopieren, schau dir die Konfigurationsfiles genau an, versteh sie, und nimm dir daraus nur das, was für dich Sinn macht. *
+  
+- Platziere die config.toml und prompts/*.md nach `~/.codex` (oder dorthin, wo deine CLI nach Configs liegt).
 
 - Führe die alias.md Befehle aus, und speichere sie für deine Shell. Falls du dir da unsicher bist wie das geht einfach die AI deiner Wahl fragen ;)
 
