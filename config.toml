@@ -10,7 +10,7 @@ model_reasoning_effort = "low"
 
 
 # Für z.B das Suchen von Doku / überschrieben von alias cmds
-[tools]
+[features]
 web_search_request = true
 
 # Netzwerk Zugriff im Modus „Workspace-Schreiben“ zulassen
