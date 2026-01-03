@@ -6,7 +6,7 @@
 
 - `alias.md`: ein paar Shell-Aliasse, damit sich verschiedene Codex-Profile mit einem Kurzbefehl starten lassen.
 
-- Skills: Codex nutzt Skills für spezialisierte Abläufe; kurze Übersicht im offiziellen Docs: `https://developers.openai.com/codex/skills`.
+- Skills: Codex nutzt den Skills-Standard für spezialisierte Abläufe. Hinweis: In meinem älteren YouTube-Video spreche ich noch über den `prompts/`-Ordner – Codex nutzt inzwischen Skills. Kurze Übersicht in den offiziellen Docs: `https://developers.openai.com/codex/skills`.
 
 ## Nutzung
 * Nicht einfach kopieren, schau dir die Konfigurationsfiles genau an, versteh sie, und nimm dir daraus nur das, was für dich Sinn macht. *
