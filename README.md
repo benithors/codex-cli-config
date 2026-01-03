@@ -6,12 +6,14 @@
 
 - `alias.md`: ein paar Shell-Aliasse, damit sich verschiedene Codex-Profile mit einem Kurzbefehl starten lassen.
 
-- `prompts/*.md`: die Custom-Prompts, die ich am häufigsten benutze.
+- Skills: Codex nutzt Skills für spezialisierte Abläufe; kurze Übersicht im offiziellen Docs: `https://developers.openai.com/codex/skills`.
 
 ## Nutzung
 * Nicht einfach kopieren, schau dir die Konfigurationsfiles genau an, versteh sie, und nimm dir daraus nur das, was für dich Sinn macht. *
   
-- Platziere die config.toml und prompts/*.md nach `~/.codex` (oder dorthin, wo deine CLI nach Configs liegt).
+- Platziere die `config.toml` nach `~/.codex` (oder dorthin, wo deine CLI nach Configs liegt).
+
+- Ich nutze inzwischen meistens `--yolo`, aber die Guardrails in diesem Repo sind ein guter Startpunkt.
 
 - Führe die alias.md Befehle aus, und speichere sie für deine Shell. Falls du dir da unsicher bist wie das geht einfach die AI deiner Wahl fragen ;)
 
