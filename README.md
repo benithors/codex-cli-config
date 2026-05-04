@@ -4,16 +4,13 @@ Meine persönlichen Konfigurationen für Dev-Tools.
 
 ## Codex CLI
 
-- `codex/config.toml`: meine persönliche Einstellungssammlung für die Codex CLI.
-- `codex/agents.md`: Template mit allen Regeln und Guardrails.
-- `codex/alias.md`: Shell-Aliasse für verschiedene Codex-Profile.
+- `codex/config.toml`: portable Codex CLI defaults.
 
 **Installation:**
 ```bash
-cp codex/config.toml ~/.codex/
+mkdir -p ~/.codex
+cp codex/config.toml ~/.codex/config.toml
 ```
-
-Skills: Codex nutzt den Skills-Standard für spezialisierte Abläufe. Docs: https://developers.openai.com/codex/skills
 
 ---
 
@@ -33,6 +30,7 @@ brew install fzf gum
 
 **Installation:**
 ```fish
+mkdir -p ~/.config/fish/functions
 cp fish/functions/*.fish ~/.config/fish/functions/
 ```
 
